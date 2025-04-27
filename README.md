@@ -1,10 +1,10 @@
 # CS340 - Grazioso Salvare Dashboard - Reflection
 
-# HOW I WRITE MAINTAINABLE, READABLE, AND ADAPTABLE PROGRAMS
+# How I write maintainable, readable, and adaptable programs.
 In creating the dashboard for Project Two, I focused on writing maintainable, readable, and adaptable code by separating concerns across different modules. I developed a dedicated CRUD Python module to handle all database operations, which I connected to my dashboard components through clean and simple function calls. This modular approach allowed me to easily manage changes, debug, and extend the functionality without rewriting code throughout the application development process. Connecting dashboard widgets directly to the CRUD module's methods allowed for efficient data retrieval and display without duplicating code. If database changes are needed in the future, updates would only need to be made in the CRUD module. This design not only simplifies maintenance but also enables the CRUD module to be reused in future dashboards, data analysis tools, or any project that involves MongoDB collections.
 
-# HOW I APPROACH PROBLEMS AS A COMPUTER SCIENTIST 
+# How I approach problems as a Computer Scientist.
 When approaching this project as a computer scientist, I broke down Grazioso Salvare’s requirements into smaller, manageable tasks: setting up CRUD functionality, building the dashboard layout, and implementing interactive elements like rescue-type filters and geolocation mapping. This methodical, step-by-step approach allowed me to focus on one part at a time while keeping the overall project goals in view. Compared to previous projects, this assignment demanded deeper consideration of modular design and client usability. Moving forward, I will continue applying this structured, client-focused strategy to future projects, ensuring that data handling and interface design remain cleanly separated for easier updates and better scalability.
 
-# WHAT COMPUTER SCIENTISTS DO AND WHY IT MATTERS 
+# What Computer Scientists do and why it matters.
 Computer scientists solve problem by designing efficient, scalable systems that transform and interpret data into actionable insights, automate processes, and solve real-world problems. Through this project, I created a dashboard that helps Grazioso Salvare quickly filter, visualize, and identify animals suitable for different types of rescue training. This improves their operational efficiency, accelerates decision-making, and ultimately supports their life-saving mission. Projects like this highlight how computer science bridges the gap between raw data and meaningful action, helping organizations work smarter and make a greater impact.
